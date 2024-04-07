@@ -1,0 +1,14 @@
+@import "../../assets/styles/variables/colors";
+
+.btn {
+    font-weight: 600;
+    color: $dark_pink;
+    background-color: $pink;
+
+    border: 0;
+    border-radius: 4px;
+
+    padding: 8px 16px;
+
+    cursor: pointer;
+}

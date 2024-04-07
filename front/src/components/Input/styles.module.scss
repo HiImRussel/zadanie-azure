@@ -1,0 +1,21 @@
+@import "../../assets/styles/variables/colors";
+
+.input {
+    width: 100%;
+
+    color: $dark_purple;
+    background-color: $light_blue;
+
+    border: 0;
+    border-radius: 4px;
+
+    padding: 4px 8px;
+
+    &:focus {
+        outline: none;
+    }
+
+    &::placeholder {
+        color: $light_purple;
+    }
+}

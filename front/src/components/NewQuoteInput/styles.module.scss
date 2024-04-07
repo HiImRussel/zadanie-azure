@@ -1,0 +1,19 @@
+@import "../../assets/styles/variables/colors";
+
+.new-quote {
+    display: flex;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 100vw;
+    padding: 32px;
+
+    border-top: 2px solid $light_purple;
+    background-color: $light_purple;
+
+    -webkit-box-shadow: 0px -5px 46px -67px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px -5px 46px -67px rgba(66, 68, 90, 1);
+    box-shadow: 0px -5px 46px -67px rgba(66, 68, 90, 1);
+}
